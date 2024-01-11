@@ -1,100 +1,95 @@
-Johnny Coder
+Gregory Basile
 ============
 
 ----
 
->  In this style, the resume starts with a blockquote, where
->  you can briefly list your specialties, or include a salient
->  quote. Ending a line with a backslash forces a line break.
+>  Crafting Exceptional Development Platforms by Embracing Conway's Law Principles.
 
 ----
 
 Education
 ---------
 
-2010-2014 (expected)
-:   **PhD, Computer Science**; Awesome University (MyTown)
+Sep'14 - Jun'16
+:   **MSc, Computer Science**; Stevens Instutute of Technology (Hoboken, NJ)
 
-    *Thesis title: Deep Learning Approaches to the Self-Awesomeness
-     Estimation Problem*
 
-2007-2010
-:   **BSc, Computer Science and Electrical Engineering**; University of
-    HomeTown (HomeTown)
+Sep'08 - Jun'12
+:   **BSc, Physics; Minor: Computer Science**; Rowan University (Glassboro, NJ)
 
-    *Minor: Awesomeology*
 
-Experience
+Professional Experience
 ----------
+Sep'19 - Jan'24
+:   **Senior Software Engineer (Infrastructure):** **GoPuff**
 
-**Your Most Recent Work Experience:**
+As the 30th technical hire and the inaugural infrastructure engineer at a fast-paced, rapidly growing startup, I had the privilege of transforming a nascent cloud infrastructure into a best-in-class development platform. My role was pivotal in evolving the cloud's initial chaos into a sophisticated and efficient system, setting a high standard for future developments. Notable achievements include:
 
-Short text containing the type of work done, results obtained,
-lessons learned and other remarks. Can also include lists and
-links:
+* Defined best practices for deploying Azure, GCP, and AWS PAAS Infrasture via Infrastructure as Code
 
-* First item
+* Architected and implemented networks, messaging bus, and database infrastructure
+for a high traffic volume last mile logistics system with elements spread across three
+clouds (AWS, Azure, GCP).
 
-* Item with [link](http://www.example.com). Links will work both in
-  the html and pdf versions.
+* Pioneered GoPuff's Kubernetes (AKS) strategy and successfully deployed the first
+Kubernetes cluster at GoPuff, leading to organization-wide adoption of
+containerization and Kubernetes-based infrastructure.
 
-**That Other Job You Had**
+Jan'19 - Aug'19
+:   **Senior DevOps Consultant:** **Bankmobile Inc.**
 
-Also with a short description.
+Consulted on the transformation of a monolithic mobile banking backend into a
+white-label SaaS product with a focus on a repeatable, scalable infrastructure and
+simple form-based deployment pipelines.
+
+Sep'16 - Dec'18
+:   **Technical Operations Engineer:** **AlphaPoint Inc.**
+
+At this cryptocurrency technology startup, I developed and maintained automated CI/CD pipelines for a stack serving over 100 exchange clients, enhancing deployment speed, and reliability. My collaboration with sales teams aligned operational strategies with customer needs, boosting satisfaction and retention. Additionally, I managed the secure integration and maintenance of diverse cryptocurrency nodes and wallets.
+
+May'12 - Sep'16
+:   **Director of Information Technology:** **Automall 46 Inc.**
+
+Established, implemented, and maintained best practices and operational procedures
+governing the development, use, and administration of core infrastructure, and IT
+management platforms.
 
 Technical Experience
 --------------------
 
-My Cool Side Project
-:   For items which don't have a clear time ordering, a definition
-    list can be used to have named items.
+**Programming Languages**
 
-    * These items can also contain lists, but you need to mind the
-      indentation levels in the markdown source.
-    * Second item.
+:   **GoLang:** Proficient in developing CLI tools, Kubernetes operators, and automation tasks. Played a key role in contributing to Gopuff's last-mile logistics system using GoLang.
 
-Open Source
-:   List open source contributions here, perhaps placing emphasis on
-    the project names, for example the **Linux Kernel**, where you
-    implemented multithreading over a long weekend, or **node.js**
-    (with [link](http://nodejs.org)) which was actually totally
-    your idea...
+:   **Python:** Started my programming journey with Python, creating CLI tools and automation scripts. Experienced in leveraging Python's extensive math and analytics libraries for various applications. 
 
-Programming Languages
-:   **first-lang:** Here, we have an itemization, where we only want
-    to add descriptions to the first few items, but still want to
-    mention some others together at the end. A format that works well
-    here is a description list where the first few items have their
-    first word emphasized, and the last item contains the final few
-    emphasized terms. Notice the reasonably nice page break in the pdf
-    version, which wouldn't happen if we generated the pdf via html.
+**Cloud Eng**
 
-:   **second-lang:** Description of your experience with second-lang,
-    perhaps again including a [link] [ref], this time placing the url
-    reference elsewhere in the document to reduce clutter (see source
-    file). 
+: **Kubernetes:** Kubernetes expert with comprehensive experience spanning high-level operations to low-level architecture. Proficient in developing operators and custom resource definitions. Notable experience with Kubernetes tooling includes Helm, Promethious, Docker, Argo CD and Istio.
 
-:   **obscure-but-impressive-lang:** We both know this one's pushing
-    it.
+: **Infrastructure as Code:** Proficient in deploying resources across all major cloud platforms (AWS, Azure, GCP) using Terraform and Pulumi. Demonstrated expertise in leveraging IaC for efficient and consistent cloud infrastructure management.
 
-:   Basic knowledge of **C**, **x86 assembly**, **forth**, **Common Lisp**
+: **Kafka on K8s:** Skilled in deploying and managing Kafka clusters within Kubernetes environments utilizing Strimzi Kafka Operator.
 
-[ref]: https://github.com/githubuser/superlongprojectname
+**Development Essentials**
 
-Extra Section, Call it Whatever You Want
+: **Scripting:** Shell, Bash, PowerShell
+: **Message Brokers:** Redis, RabbitMQ, Kafka
+: **CI/CD:** GitHub Actions, Jenkins, Octopus
+: **Containerization:** Docker
+
+**Side Project**
+:   **Collaboration tool for Digital Audio Workstations:** Music producers often face limited collaboration opportunities within leading Digital Audio Workstations (DAWs) like Ableton and FL Studio. Since 2005, Git has revolutionized the way software developers collaborate and manage source control. Inspired by this, my aim is to harness the power of Git and source control to revolutionize collaboration for music producers, opening up new avenues for creative synergy and efficiency in music production.
+
+Extras
 ----------------------------------------
 
-* Human Languages:
+* Eagle Scout, Boy Scouts of America
 
-     * English (native speaker)
-     * ???
-     * This is what a nested list looks like.
-
-* Random tidbit
-
-* Other sort of impressive-sounding thing you did
+* Techno Producer, and DJ
 
 ----
 
-> <email@example.com> • +00 (0)00 000 0000 • XX years old\
-> address - Mytown, Mycountry
+> <gregymann@gmail.com> • (908) 229-7720 • 
+> 126 Clifton Place, Jersey City, NJ, 07424• 
+> [LinkedIn](https://linkedin.com/in/gregymann/) • [Github](https://github.com/gbasileGP)
