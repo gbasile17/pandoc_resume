@@ -1,0 +1,220 @@
+% Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+% Copyright 2014 Mark Szepieniec <http://github.com/mszep>
+% 
+% ConText style for making a resume with pandoc. Inspired by moderncv.
+% 
+% This CSS document is delivered to you under the CC BY-SA 3.0 License.
+% https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+
+\startmode[*mkii]
+  \enableregime[utf-8]  
+  \setupcolors[state=start]
+\stopmode
+
+\setupcolor[hex]
+\definecolor[titlegrey][h=000000]
+\definecolor[sectioncolor][h=110c91]
+\definecolor[rulecolor][h=333180]
+
+% Enable hyperlinks
+\setupinteraction[state=start, color=sectioncolor]
+
+\setuppapersize [A4][A4]
+\setuplayout    [width=middle, height=middle,
+                 backspace=20mm, cutspace=0mm,
+                 topspace=10mm, bottomspace=20mm,
+                 header=0mm, footer=0mm]
+
+%\setuppagenumbering[location={footer,center}]
+
+\setupbodyfont[11pt, helvetica]
+
+\setupwhitespace[medium]
+
+\setupblackrules[width=31mm, color=rulecolor]
+
+\setuphead[chapter]      [style=\tfd]
+\setuphead[section]      [style=\tfd\bf, color=titlegrey, align=middle]
+\setuphead[subsection]   [style=\tfb\bf, color=sectioncolor, align=right,
+                          before={\leavevmode\blackrule\hspace}]
+\setuphead[subsubsection][style=\bf]
+
+\setuphead[chapter, section, subsection, subsubsection][number=no]
+
+%\setupdescriptions[width=10mm]
+
+\definedescription
+  [description]
+  [headstyle=bold, style=normal,
+   location=hanging, width=18mm, distance=14mm, margin=0cm]
+
+\setupitemize[autointro, packed]    % prevent orphan list intro
+\setupitemize[indentnext=no]
+
+\defineitemgroup[enumerate]
+\setupenumerate[each][fit][itemalign=left,distance=.5em,style={\feature[+][default:tnum]}]
+
+\setupfloat[figure][default={here,nonumber}]
+\setupfloat[table][default={here,nonumber}]
+
+\setuptables[textwidth=max, HL=none]
+\setupxtable[frame=off,option={stretch,width}]
+
+\setupthinrules[width=15em] % width of horizontal rules
+
+\setupdelimitedtext
+  [blockquote]
+  [before={\setupalign[middle]},
+   indentnext=no,
+  ]
+
+
+\starttext
+
+\section[title={Gregory Basile},reference={gregory-basile}]
+
+\thinrule
+
+\startblockquote
+Crafting Exceptional Development Platforms by Embracing Conway's Law
+Principles.
+\stopblockquote
+
+\thinrule
+
+\subsection[title={Education},reference={education}]
+
+\startdescription{Sep'14 - Jun'16}
+  {\bf MSc, Computer Science}; Stevens Instutute of Technology (Hoboken,
+  NJ)
+\stopdescription
+
+\startdescription{Sep'08 - Jun'12}
+  {\bf BSc, Physics; Minor: Computer Science}; Rowan University
+  (Glassboro, NJ)
+\stopdescription
+
+\subsection[title={Professional
+Experience},reference={professional-experience}]
+
+\startdescription{Sep'19 - Jan'24}
+  {\bf Senior Software Engineer (Infrastructure):} {\bf GoPuff}
+\stopdescription
+
+As the 30th technical hire and the inaugural infrastructure engineer at
+a fast-paced, rapidly growing startup, I had the privilege of
+transforming a nascent cloud infrastructure into a best-in-class
+development platform. My role was pivotal in evolving the cloud's
+initial chaos into a sophisticated and efficient system, setting a high
+standard for future developments. Notable achievements include:
+
+\startitemize
+\item
+  Defined best practices for deploying Azure, GCP, and AWS PAAS
+  Infrasture via Infrastructure as Code
+\item
+  Architected and implemented networks, messaging bus, and database
+  infrastructure for a high traffic volume last mile logistics system
+  with elements spread across three clouds (AWS, Azure, GCP).
+\item
+  Pioneered GoPuff's Kubernetes (AKS) strategy and successfully deployed
+  the first Kubernetes cluster at GoPuff, leading to organization-wide
+  adoption of containerization and Kubernetes-based infrastructure.
+\stopitemize
+
+\startdescription{Jan'19 - Aug'19}
+  {\bf Senior DevOps Consultant:} {\bf Bankmobile Inc.}
+\stopdescription
+
+Consulted on the transformation of a monolithic mobile banking backend
+into a white-label SaaS product with a focus on a repeatable, scalable
+infrastructure and simple form-based deployment pipelines.
+
+\startdescription{Sep'16 - Dec'18}
+  {\bf Technical Operations Engineer:} {\bf AlphaPoint Inc.}
+\stopdescription
+
+At this cryptocurrency technology startup, I developed and maintained
+automated CI/CD pipelines for a stack serving over 100 exchange clients,
+enhancing deployment speed, and reliability. My collaboration with sales
+teams aligned operational strategies with customer needs, boosting
+satisfaction and retention. Additionally, I managed the secure
+integration and maintenance of diverse cryptocurrency nodes and wallets.
+
+\startdescription{May'12 - Sep'16}
+  {\bf Director of Information Technology:} {\bf Automall 46 Inc.}
+\stopdescription
+
+Established, implemented, and maintained best practices and operational
+procedures governing the development, use, and administration of core
+infrastructure, and IT management platforms.
+
+\subsection[title={Technical
+Experience},reference={technical-experience}]
+
+\startdescription{{\bf Programming Languages}}
+  {\bf GoLang:} Proficient in developing CLI tools, Kubernetes
+  operators, and automation tasks. Played a key role in contributing to
+  Gopuff's last-mile logistics system using GoLang.
+
+  {\bf Python:} Started my programming journey with Python, creating CLI
+  tools and automation scripts. Experienced in leveraging Python's
+  extensive math and analytics libraries for various applications.
+\stopdescription
+
+\startdescription{{\bf Cloud Eng}}
+  {\bf Kubernetes:} Kubernetes expert with comprehensive experience
+  spanning high-level operations to low-level architecture. Proficient
+  in developing operators and custom resource definitions. Notable
+  experience with Kubernetes tooling includes Helm, Promethious, Docker,
+  Argo CD and Istio.
+
+  {\bf Infrastructure as Code:} Proficient in deploying resources across
+  all major cloud platforms (AWS, Azure, GCP) using Terraform and
+  Pulumi. Demonstrated expertise in leveraging IaC for efficient and
+  consistent cloud infrastructure management.
+
+  {\bf Kafka on K8s:} Skilled in deploying and managing Kafka clusters
+  within Kubernetes environments utilizing Strimzi Kafka Operator.
+\stopdescription
+
+\startdescription{{\bf Development Essentials}}
+  {\bf Scripting:} Shell, Bash, PowerShell
+
+  {\bf Message Brokers:} Redis, RabbitMQ, Kafka
+
+  {\bf CI/CD:} GitHub Actions, Jenkins, Octopus
+
+  {\bf Containerization:} Docker
+\stopdescription
+
+\startdescription{{\bf Side Project}}
+  {\bf Collaboration tool for Digital Audio Workstations:} Music
+  producers often face limited collaboration opportunities within
+  leading Digital Audio Workstations (DAWs) like Ableton and FL Studio.
+  Since 2005, Git has revolutionized the way software developers
+  collaborate and manage source control. Inspired by this, my aim is to
+  harness the power of Git and source control to revolutionize
+  collaboration for music producers, opening up new avenues for creative
+  synergy and efficiency in music production.
+\stopdescription
+
+\subsection[title={Extras},reference={extras}]
+
+\startitemize
+\item
+  Eagle Scout, Boy Scouts of America
+\item
+  Techno Producer, and DJ
+\stopitemize
+
+\thinrule
+
+\startblockquote
+\useURL[url1][mailto:gregymann@gmail.com][][gregymann@gmail.com]\from[url1]
+• (908) 229-7720 • 126 Clifton Place, Jersey City, NJ, 07424•
+\useURL[url2][https://linkedin.com/in/gregymann/][][LinkedIn]\from[url2]
+• \useURL[url3][https://github.com/gbasileGP][][Github]\from[url3]
+\stopblockquote
+
+\stoptext
