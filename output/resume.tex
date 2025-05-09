@@ -71,18 +71,18 @@
 
 \starttext
 
-\section[title={Gregory Basile},reference={gregory-basile}]
+\startsectionlevel[title={Gregory Basile},reference={gregory-basile}]
 
 \thinrule
 
 \startblockquote
-Crafting Exceptional Development Platforms by Embracing Conway's Law
-Principles.
+Technical Plumbing since 2012. If DevOps is the job title, are you even
+doing it?
 \stopblockquote
 
 \thinrule
 
-\subsection[title={Education},reference={education}]
+\startsectionlevel[title={Education},reference={education}]
 
 \startdescription{Sep'14 - Jun'16}
   {\bf MSc, Computer Science}; Stevens Instutute of Technology (Hoboken,
@@ -94,33 +94,43 @@ Principles.
   (Glassboro, NJ)
 \stopdescription
 
-\subsection[title={Professional
+\stopsectionlevel
+
+\startsectionlevel[title={Certification},reference={certification}]
+
+\startdescription{Jan'24 - April'24}
+  {\bf Applied Data Science for Machine Learning}; {\bf MIT Professional
+  Education}
+\stopdescription
+
+\stopsectionlevel
+
+\startsectionlevel[title={Professional
 Experience},reference={professional-experience}]
+
+\startdescription{April'24 - Present}
+  {\bf Member of Technical Staff:} {\bf Udio}
+\stopdescription
+
+As a key member of the founding engineering team at Udio, I spearheaded
+the development of a cutting-edge generative audio platform on Google
+Kubernetes Engine (GKE), leveraging Google's TPU compute platform for
+advanced model training and inference. I played a pivotal role in
+defining MLOps processes within a nascent and rapidly evolving domain,
+architecting robust, high-throughput inference systems designed for
+scalable performance.
 
 \startdescription{Sep'19 - Jan'24}
   {\bf Senior Software Engineer (Infrastructure):} {\bf GoPuff}
 \stopdescription
 
-As the 30th technical hire and the inaugural infrastructure engineer at
-a fast-paced, rapidly growing startup, I had the privilege of
-transforming a nascent cloud infrastructure into a best-in-class
-development platform. My role was pivotal in evolving the cloud's
-initial chaos into a sophisticated and efficient system, setting a high
-standard for future developments. Notable achievements include:
-
-\startitemize
-\item
-  Defined best practices for deploying Azure, GCP, and AWS PAAS
-  Infrasture via Infrastructure as Code
-\item
-  Architected and implemented networks, messaging bus, and database
-  infrastructure for a high traffic volume last mile logistics system
-  with elements spread across three clouds (AWS, Azure, GCP).
-\item
-  Pioneered GoPuff's Kubernetes (AKS) strategy and successfully deployed
-  the first Kubernetes cluster at GoPuff, leading to organization-wide
-  adoption of containerization and Kubernetes-based infrastructure.
-\stopitemize
+Transformed a nascent cloud environment into a robust development
+platform, setting a high standard for future scalability. Key
+achievements include: • Defined best practices for deploying Azure, GCP,
+and AWS PaaS via Infrastructure as Code. • Architected networks,
+messaging buses, and databases for a high-traffic, multi-cloud logistics
+system. • Led GoPuff's Kubernetes (AKS) strategy, deploying the first
+cluster and driving organization-wide adoption.
 
 \startdescription{Jan'19 - Aug'19}
   {\bf Senior DevOps Consultant:} {\bf Bankmobile Inc.}
@@ -149,33 +159,31 @@ Established, implemented, and maintained best practices and operational
 procedures governing the development, use, and administration of core
 infrastructure, and IT management platforms.
 
-\subsection[title={Technical
+\stopsectionlevel
+
+\startsectionlevel[title={Technical
 Experience},reference={technical-experience}]
 
 \startdescription{{\bf Programming Languages}}
-  {\bf GoLang:} Proficient in developing CLI tools, Kubernetes
-  operators, and automation tasks. Played a key role in contributing to
-  Gopuff's last-mile logistics system using GoLang.
+  {\bf GoLang:} My goto language for plumbing backends, with GRPC
+  services, and async consumers.
 
-  {\bf Python:} Started my programming journey with Python, creating CLI
-  tools and automation scripts. Experienced in leveraging Python's
-  extensive math and analytics libraries for various applications.
+  {\bf Python:} Training ML models, building inference pipelines,
+  utility scripting, and avoiding async whenever possible.
 \stopdescription
 
 \startdescription{{\bf Cloud Eng}}
   {\bf Kubernetes:} Kubernetes expert with comprehensive experience
   spanning high-level operations to low-level architecture. Proficient
-  in developing operators and custom resource definitions. Notable
-  experience with Kubernetes tooling includes Helm, Promethious, Docker,
-  Argo CD and Istio.
+  in developing operators and custom resource definitions.
 
   {\bf Infrastructure as Code:} Proficient in deploying resources across
   all major cloud platforms (AWS, Azure, GCP) using Terraform and
   Pulumi. Demonstrated expertise in leveraging IaC for efficient and
   consistent cloud infrastructure management.
 
-  {\bf Kafka on K8s:} Skilled in deploying and managing Kafka clusters
-  within Kubernetes environments utilizing Strimzi Kafka Operator.
+  {\bf Persistance on K8s:} I have experience hosting a number of
+  persistance systems on k8s: Kafka, Redis, MinIO and NFS servers.
 \stopdescription
 
 \startdescription{{\bf Development Essentials}}
@@ -186,6 +194,8 @@ Experience},reference={technical-experience}]
   {\bf CI/CD:} GitHub Actions, Jenkins, Octopus
 
   {\bf Containerization:} Docker
+
+  {\bf Plumbing} GRPC, REST, protos
 \stopdescription
 
 \startdescription{{\bf Side Project}}
@@ -199,7 +209,9 @@ Experience},reference={technical-experience}]
   synergy and efficiency in music production.
 \stopdescription
 
-\subsection[title={Extras},reference={extras}]
+\stopsectionlevel
+
+\startsectionlevel[title={Extras},reference={extras}]
 
 \startitemize
 \item
@@ -211,10 +223,14 @@ Experience},reference={technical-experience}]
 \thinrule
 
 \startblockquote
-\useURL[url1][mailto:gregymann@gmail.com][][gregymann@gmail.com]\from[url1]
-• (908) 229-7720 • 126 Clifton Place, Jersey City, NJ, 07424•
-\useURL[url2][https://linkedin.com/in/gregymann/][][LinkedIn]\from[url2]
-• \useURL[url3][https://github.com/gbasileGP][][Github]\from[url3]
+\goto{gregymann@gmail.com}[url(mailto:gregymann@gmail.com)] • (908)
+229-7720 • 126 Clifton Place, Jersey City, NJ, 07424•
+\goto{LinkedIn}[url(https://linkedin.com/in/gregymann/)] •
+\goto{Github}[url(https://github.com/gbasileGP)]
 \stopblockquote
+
+\stopsectionlevel
+
+\stopsectionlevel
 
 \stoptext

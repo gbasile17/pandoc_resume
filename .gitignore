@@ -5,3 +5,5 @@ result
 result-*
 .envrc
 .direnv
+
+**/.claude/settings.local.json

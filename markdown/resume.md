@@ -3,7 +3,7 @@ Gregory Basile
 
 ----
 
->  Crafting Exceptional Development Platforms by Embracing Conway's Law Principles.
+>  Technical Plumbing since 2012. If DevOps is the job title, are you even doing it?
 
 ----
 
@@ -17,23 +17,26 @@ Sep'14 - Jun'16
 Sep'08 - Jun'12
 :   **BSc, Physics; Minor: Computer Science**; Rowan University (Glassboro, NJ)
 
+Certification
+---------
+Jan'24 - April'24
+:   **Applied Data Science for Machine Learning**; **MIT Professional Education**
 
 Professional Experience
 ----------
+April'24 - Present
+:   **Member of Technical Staff:** **Udio**
+
+As a key member of the founding engineering team at Udio, I spearheaded the development of a cutting-edge generative audio platform on Google Kubernetes Engine (GKE), leveraging Google’s TPU compute platform for advanced model training and inference. I played a pivotal role in defining MLOps processes within a nascent and rapidly evolving domain, architecting robust, high-throughput inference systems designed for scalable performance.
+
+
 Sep'19 - Jan'24
 :   **Senior Software Engineer (Infrastructure):** **GoPuff**
 
-As the 30th technical hire and the inaugural infrastructure engineer at a fast-paced, rapidly growing startup, I had the privilege of transforming a nascent cloud infrastructure into a best-in-class development platform. My role was pivotal in evolving the cloud's initial chaos into a sophisticated and efficient system, setting a high standard for future developments. Notable achievements include:
-
-* Defined best practices for deploying Azure, GCP, and AWS PAAS Infrasture via Infrastructure as Code
-
-* Architected and implemented networks, messaging bus, and database infrastructure
-for a high traffic volume last mile logistics system with elements spread across three
-clouds (AWS, Azure, GCP).
-
-* Pioneered GoPuff's Kubernetes (AKS) strategy and successfully deployed the first
-Kubernetes cluster at GoPuff, leading to organization-wide adoption of
-containerization and Kubernetes-based infrastructure.
+Transformed a nascent cloud environment into a robust development platform, setting a high standard for future scalability. Key achievements include:
+	•	Defined best practices for deploying Azure, GCP, and AWS PaaS via Infrastructure as Code.
+	•	Architected networks, messaging buses, and databases for a high-traffic, multi-cloud logistics system.
+	•	Led GoPuff’s Kubernetes (AKS) strategy, deploying the first cluster and driving organization-wide adoption.
 
 Jan'19 - Aug'19
 :   **Senior DevOps Consultant:** **Bankmobile Inc.**
@@ -59,17 +62,17 @@ Technical Experience
 
 **Programming Languages**
 
-:   **GoLang:** Proficient in developing CLI tools, Kubernetes operators, and automation tasks. Played a key role in contributing to Gopuff's last-mile logistics system using GoLang.
+:   **GoLang:** My goto language for plumbing backends, with GRPC services, and async consumers.
 
-:   **Python:** Started my programming journey with Python, creating CLI tools and automation scripts. Experienced in leveraging Python's extensive math and analytics libraries for various applications. 
+:   **Python:** Training ML models, building inference pipelines, utility scripting, and avoiding async whenever possible.
 
 **Cloud Eng**
 
-: **Kubernetes:** Kubernetes expert with comprehensive experience spanning high-level operations to low-level architecture. Proficient in developing operators and custom resource definitions. Notable experience with Kubernetes tooling includes Helm, Promethious, Docker, Argo CD and Istio.
+: **Kubernetes:** Kubernetes expert with comprehensive experience spanning high-level operations to low-level architecture. Proficient in developing operators and custom resource definitions. 
 
 : **Infrastructure as Code:** Proficient in deploying resources across all major cloud platforms (AWS, Azure, GCP) using Terraform and Pulumi. Demonstrated expertise in leveraging IaC for efficient and consistent cloud infrastructure management.
 
-: **Kafka on K8s:** Skilled in deploying and managing Kafka clusters within Kubernetes environments utilizing Strimzi Kafka Operator.
+: **Persistance on K8s:** I have experience hosting a number of persistance systems on k8s: Kafka, Redis, MinIO and NFS servers.
 
 **Development Essentials**
 
@@ -77,6 +80,7 @@ Technical Experience
 : **Message Brokers:** Redis, RabbitMQ, Kafka
 : **CI/CD:** GitHub Actions, Jenkins, Octopus
 : **Containerization:** Docker
+: **Plumbing** GRPC, REST, protos
 
 **Side Project**
 :   **Collaboration tool for Digital Audio Workstations:** Music producers often face limited collaboration opportunities within leading Digital Audio Workstations (DAWs) like Ableton and FL Studio. Since 2005, Git has revolutionized the way software developers collaborate and manage source control. Inspired by this, my aim is to harness the power of Git and source control to revolutionize collaboration for music producers, opening up new avenues for creative synergy and efficiency in music production.
