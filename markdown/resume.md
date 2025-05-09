@@ -24,7 +24,7 @@ Jan'24 - April'24
 
 Professional Experience
 ----------
-April'24 - Present
+April'24 - Now
 :   **Member of Technical Staff:** **Udio**
 
 As a key member of the founding engineering team at Udio, I spearheaded the development of a cutting-edge generative audio platform on Google Kubernetes Engine (GKE), leveraging Google’s TPU compute platform for advanced model training and inference. I played a pivotal role in defining MLOps processes within a nascent and rapidly evolving domain, architecting robust, high-throughput inference systems designed for scalable performance.
